@@ -28,7 +28,7 @@ export default function App() {
   }
   
   return(
-    <div>
+    <div className="maindisplay">
       <h1>Task-a-Lot</h1>
       <p>Our friendly TaskManager</p>
       <Taskform addTask = {addTask}/>

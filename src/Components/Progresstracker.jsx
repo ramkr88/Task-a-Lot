@@ -8,10 +8,11 @@ export default function Progresstracker({tasks}) {
     <div className="progress-tracker">
       <p>
         {completedTasks} of {totalTasks} tasks completed
-        <div className="progress-bar">
-
-        </div>
       </p>
+        <div className="progress-bar">
+          <div className="progress" style ={{ width : `${percentage}%`}}>
+          </div>
+        </div>
     </div>
   )
 }
